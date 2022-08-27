@@ -50,7 +50,7 @@ main {
 
 .nav-list li {
   letter-spacing: 1px;
-  margin-left: 32px;
+  margin-left: 22px;
 }
 
 .mobile-menu {
@@ -59,8 +59,8 @@ main {
 }
 
 .mobile-menu div {
-  width: 32px;
-  height: 2px;
+  width: 22px;
+  height: 1px;
   background: black;
   margin: 8px;
   transition: 0.3s;
@@ -111,7 +111,7 @@ main {
 }
 
 .mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
+  transform: rotate(-45deg) translate(-7px, 7px);
 }
 
 .mobile-menu.active .line2 {
@@ -119,5 +119,5 @@ main {
 }
 
 .mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
+  transform: rotate(45deg) translate(-4px, -6px);
 }

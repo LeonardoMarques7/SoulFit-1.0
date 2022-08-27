@@ -85,3 +85,13 @@ h3 {
 h3 {
   color: green;
 }
+
+.text-conts {
+  transition: 0.3s;
+}
+
+.text-conts:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: green;
+}
